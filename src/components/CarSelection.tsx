@@ -56,7 +56,7 @@ export default function CarSelector({ onSelect }: CarSelectorProps) {
           <label 
             key={car.name}
             className={`flex flex-col justify-between cursor-pointer border transition-all
-              w-[170px] h-[190px] md:w-[150px] md:h-[190px]
+              w-[170px] h-[190px] md:w-[140px] md:h-[190px]
               ${selected === car.name ? 'border-2 border-gray-700' : 'border border-transparent'}
             `}
           >
@@ -89,7 +89,7 @@ export default function CarSelector({ onSelect }: CarSelectorProps) {
                   </div>
                 </div>
                 <div className="flex-1 flex items-center justify-center mt-4">
-                  <div className="relative w-36 h-24">
+                  <div className="relative w-26 h-24">
                     <Image
                       src={car.image}
                       alt={car.name}
