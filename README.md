@@ -1,4 +1,4 @@
-# Responsive Car Selection Component Library
+# Responsive Component Library
 
 A modern, reusable car selection component library built with Next.js and Tailwind CSS. Perfect for automotive websites, car dealership platforms, or any web application requiring vehicle selection functionality.
 
