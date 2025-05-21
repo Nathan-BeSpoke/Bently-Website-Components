@@ -1,0 +1,7 @@
+.card-media {
+  position: relative;
+}
+
+.card-image {
+  opacity: 0.7 !important;
+}
