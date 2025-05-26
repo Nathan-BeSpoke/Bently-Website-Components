@@ -4,7 +4,17 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['placehold.co'], // Add the external domain here
+    domains: [
+      'www.bentleymotors.com',
+      'bentleymotors.com',
+      'placehold.co'
+    ],
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days
+  },
+  // Enable React's experimental features
+  experimental: {
+    appDir: true,
   },
 }
 
